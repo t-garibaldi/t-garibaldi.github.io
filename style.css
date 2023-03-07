@@ -1,0 +1,105 @@
+html, body{
+	text-align: center;
+	background-color: ghostwhite;
+}
+
+h1{
+	margin: 12px;
+	border-radius: 7px;
+	color: #181818;
+	padding-top: 10px;
+	font-family: 'Roboto';
+}
+
+h2{
+	font-family: 'Roboto';
+	font-size: 22px;
+	padding-bottom: 5px;
+	margin: 10px;
+}
+
+h3{
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 40%;
+	margin: 8px;
+}
+
+p{
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: normal;
+}
+
+img{
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+}
+
+.container{
+	border-radius: 3px;
+	background: rgb(131,58,180);
+	background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	background-blend-mode: 60%;
+	margin: auto;
+	width: 1200px;
+	box-shadow: 10px 20px 30px #d1708c;
+	padding: 5px;
+	color: #d6b1bc;
+}
+
+.text-design{
+	background-color: #F7E3E9;
+}
+
+.card-info{
+	border-radius: 2px;
+	background-color: #F7E3E9;
+	margin: 10px 18%;
+	box-shadow: 10px 20px 50px #d1708c;
+	padding: 25px;
+	color: #181818;
+	font-family: 'Roboto';
+}
+
+.card-info-2{
+	border-radius: 2px;
+	background-color: #F7E3E9;
+	margin: 10px 18%;
+	box-shadow: 10px 20px 50px #d1708c;
+	padding: 25px;
+	color: #181818;
+	font-family: 'Roboto';
+	text-align: center;
+	display: flex
+}
+
+.card-info li{
+	text-align: center;
+}
+
+.list-inline{
+	display: inline-block;
+	padding: 10px;
+}
+
+ol{
+	list-style-position: inside;
+	width: 40%;
+	margin: auto;
+    text-align: center;
+    font-family: 'Roboto'
+}
+
+.card-info-2 li{
+	text-align: left;
+}
+
+a{
+	color: #e00b47;
+	padding: 5px;
+}
